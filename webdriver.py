@@ -1,7 +1,5 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-<<<<<<< HEAD
-import re
 
 def page_check():
 	try:
