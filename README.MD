@@ -9,8 +9,11 @@ Install selenium, put their weird file where it's supposed to go in /usr/local/b
 
 ## Usage
 
-Run: 
+From the terminal:
+
 $ python3 -i webdriver.py
+
+From the python shell:
 
 \>\> all_repos = load_repos('your_username')
 
