@@ -70,12 +70,8 @@ def transfer_an_org(driver, repo_name, new_org_name):
 
 	Feed it a logged-in driver, the repo to transfer, the org name.
 	"""
-	driver.get(f"https://github.com/{username}/{repo_name}")
-	settings_button = driver.find_element_by_xpath(\
-		"//*[@id='js-repo-pjax-container']/div[1]/nav/a[3]")
+	driver.get(f"https://github.com/{username}/{repo_name}/settings")
 	
-	settings_button.click()
-	driver.implicitly_wait(1)
 	transfer_button = driver.find_element_by_xpath(\
 		"//*[@id='options_bucket']/div[8]/ul/li[2]/details/summary")
 	

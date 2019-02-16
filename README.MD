@@ -15,14 +15,14 @@ $ python3 -i webdriver.py
 
 From the python shell:
 
-\>\> all_repos = load_repos('your_username')
+\>\>\> all_repos = load_repos('your_username')
 
 (A webdriver should appear and get a list of your repos)
 
-\>\> filtered_repos = filter_repos(all_repos, "some_search_string")
+\>\>\> filtered_repos = filter_repos(all_repos, "some_search_string")
 
-\>\> logged_in_driver = log_in()
+\>\>\> logged_in_driver = log_in()
 
 (Don't close the browser!)
 
-\>\> [transfer_an_org(logged_in_driver, repo, 'new_org_name') for repo in filtered_repos]
+\>\>\> [transfer_an_org(logged_in_driver, repo, 'new_org_name') for repo in filtered_repos]
