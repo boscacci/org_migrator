@@ -1,4 +1,4 @@
-# Org Mover
+# Org Migrator
 
 Spins up a Selenium chrome driver to transfer repos from one github org to another in batch. Saves you the trouble of some potentially tedious clicking around.
 
